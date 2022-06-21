@@ -21,8 +21,7 @@ nav {
     padding: 20px;
     background-color: var(--nav-color);
     display: flex;
-    /* justify-content: space-between; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -58,12 +57,57 @@ body article {
     padding: 20px;
 }
 
-body h2 {
+h2 {
     color: var(--heading-color);
 }
 
-body p {
-    color: var(--text-color)
+h3 {
+    color: var(--heading-color);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid var(--h1-color);
+    position: relative;
+    margin-top: -15px;
+    background-color: var(--nav-color);
+
+}
+
+.projects {
+    padding: 20px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--h1-color);
+    margin: 10px;
+    padding: 10px;
+}
+
+section img {
+    width: auto;
+}
+
+#main-project {
+    flex: 0 0 80%;
+}
+
+#other-project {
+    flex: 0 0 20%;
+}
+
+p {
+    color: var(--text-color);
+}
+
+.project-descr {
+    padding: 10px;
+    color: var(--heading-color);
 }
 
 section {
