@@ -1,5 +1,26 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0; */
+    --body-color: #C8C1BC;
+    --nav-color: #E9EAEE;
+    --nav-border: #3471A1;
+}
+
+body {
+    background-color: var(--body-color);
+}
+
+h1 {
+    color:
+}
+nav {
+    margin: 20px;
+    background-color: var(--nav-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
 }
