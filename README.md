@@ -2,7 +2,11 @@
 
 ## Description 
 
-screenshot
+Welcome to my portfolio website!
+
+This project aims to showcase my ability in CSS styling with flexbox displays.
+
+![](./assets/images/screenshot-my-portfolio.png)
 
 ## Credits
 

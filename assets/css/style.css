@@ -88,9 +88,6 @@ section div {
     display: inline-block;
 }
 
-#main-project {
-    /* flex: 0 0 80%; */
-}
 
 #main-project-img {
     width: 100%;
@@ -98,9 +95,6 @@ section div {
     display: block;
 }
 
-#other-project {
-    /* flex: 0 0 20%; */
-}
 
 p {
     color: var(--text-color);
