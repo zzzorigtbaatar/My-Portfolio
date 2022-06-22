@@ -1,3 +1,4 @@
+/* universal attributes */
 * {
     --body-color: #DEE6F5;
     --nav-color: #7B9FD3;
@@ -7,16 +8,26 @@
     --text-color: #7B9FD3;
 }
 
+/* body attributes */
 body {
     background-color: var(--body-color);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
+/* body text color */
+p {
+    color: var(--text-color);
+}
 
+/* profile photo attributes */
 .pfp {
     float: left;
     max-height: 150px;
 }
 
+/* nav attributes */
 nav {
     padding: 20px;
     background-color: var(--nav-color);
@@ -24,39 +35,38 @@ nav {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
+/* nav heading attributes */
 h1 {
-    padding: 50px 0;
-    padding-left: 20px;
+    padding: 50px 20px 0 20px;
     color: var(--h1-color);
     font-size: 200%;
     flex: 1;
 }
 
+/* nav links attributes */
 #nav-links li {
     display: inline;
     flex: 1;
     font-size: 150%;
 }
 
+/* nav links color */
 #nav-links a {
     color: var(--links-color);
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-
-body article {
+/* article attributes */
+article {
     padding: 20px;
+    text-align: center;
 }
 
+/* article heading attributes */
 h2 {
     color: var(--heading-color);
 }
 
+/* article 'projects' attributes */
 .projects {
     padding: 20px;
     display: inline-flex;
@@ -65,7 +75,8 @@ h2 {
     justify-content: center;
 }
 
-h3 {
+/* projects heading attributes */
+.projects h3 {
     color: var(--heading-color);
     display: flex;
     justify-content: center;
@@ -77,38 +88,33 @@ h3 {
 
 }
 
-section div {
+/* projects div attributes */
+.projects div {
     display: flex;
     flex-direction: column;
     border: 2px solid var(--h1-color);
     padding: 10px;
 }
 
+/* main project attributes */
 #main-project {
     display: inline-block;
 }
 
-
+/* main project image attributes*/
 #main-project-img {
     width: 100%;
     margin: 5px 0 0 0;
     display: block;
 }
 
-
-p {
-    color: var(--text-color);
-}
-
+/* projects text color */
 .project-descr {
     padding: 10px;
     color: var(--heading-color);
 }
 
-section {
-    padding: 20px;
-}
-
+/* footer attributes */
 footer {
     padding: 20px;
     text-align: center;
