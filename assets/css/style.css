@@ -77,7 +77,6 @@ h2 {
 /* projects heading attributes */
 .projects h3 {
     color: var(--heading-color);
-    display: flex;
     justify-content: center;
     padding: 10px;
     border: 2px solid var(--heading-color);
